@@ -1,0 +1,23 @@
+.volunteer .logo {
+    width: 200px;
+}
+
+.volunteer form {
+    width: 37%;
+    margin: auto;
+}
+
+.volunteer form textarea {
+    resize: none;
+    overflow:hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    .volunteer form {
+        width: 100%;
+    }
+
+    .volunteer .register-title {
+        font-size: 18px !important;
+    }
+}
